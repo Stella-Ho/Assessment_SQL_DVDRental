@@ -1,0 +1,6 @@
+SELECT customer_id, active,
+	CASE WHEN active='0' THEN 'INACTIVE'
+		ELSE 'ACTIVE'
+	END
+FROM customer
+ORDER BY customer_id;

@@ -1,0 +1,4 @@
+SELECT DISTINCT customer_id 
+FROM payment 
+WHERE amount <.99 
+ORDER BY customer_id Asc;

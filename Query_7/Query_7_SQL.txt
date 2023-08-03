@@ -1,0 +1,6 @@
+SELECT fc.category_id, c.name, MAX(length) as Max_length, MIN(length) as Min_length
+FROM film f
+JOIN film_category fc ON fc.film_id = f.film_id
+JOIN category c ON fc.category_id = c.category_id
+GROUP BY fc.category_id, c.name
+ORDER BY category_id ASC;

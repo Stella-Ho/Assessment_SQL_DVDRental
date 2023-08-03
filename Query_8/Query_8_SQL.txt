@@ -1,0 +1,4 @@
+SELECT customer_id, amount, 
+RANK() OVER (ORDER BY amount) as rank
+FROM payment
+WHERE amount > 10;

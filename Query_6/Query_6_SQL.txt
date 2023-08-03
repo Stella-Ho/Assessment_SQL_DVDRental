@@ -1,0 +1,7 @@
+SELECT fa.actor_id, COUNT(f.film_id) as film_count, a.first_name
+FROM film_actor fa
+INNER JOIN film f ON f.film_id = fa.film_id
+INNER JOIN actor a ON a.actor_id = fa.actor_id
+GROUP BY fa.actor_id, a.first_name
+ORDER BY film_count DESC
+Limit 10;

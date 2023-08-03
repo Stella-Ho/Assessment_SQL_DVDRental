@@ -1,0 +1,6 @@
+SELECT c.category_id, c.name, fc.film_id, f.title
+FROM category c
+JOIN film_category fc ON c.category_id = fc.category_id
+JOIN film f ON f.film_id = fc.film_id
+WHERE c.name IN ('Action', 'Family')
+ORDER BY category_id ASC;
