@@ -43,4 +43,4 @@ ERD visualizes the relationships between all entities which link up customers id
 <img src="https://github.com/Stella-Ho/Assessment_SQL_DVDRental/assets/141046828/e3d28a81-592f-43b7-9c77-7b240e0a0505" width="800">
 
 ## SQL Analysis
-Click [Here](https://github.com/Stella-Ho/Assessment_SQL_DVDRental/blob/6adb6504f4cf14326be437e4a50e84d2896f8824/SQL_Analysis.md)
+Click [Here](https://github.com/Stella-Ho/Assessment_SQL_DVDRental/blob/3e8d35855ea2a74921b0e7f2f093b4eda14e54e6/SQL_Analysis.md)
