@@ -2,7 +2,7 @@
 
 
 ## Overview
-In this project, it used POSTGRESQL database and extracted 10 SQL queries and 10 result file ".CSV" for these queries for DVD Rental database. It's also listed out all the table and created ERD which showed in below section.
+In this project, it used POSTGRESQL database and extracted 10 SQL queries and 10 result files ".CSV" for these queries for DVD Rental database. It's also listed out all the table and created ERD which showed in below section. The dataset included the DVD rental stores information 
 
 ## Objective
 The objective of this research is to analyze DVD Rental data, based on the data analysis, we have more insight on the customers usage by category or amount as well as consolidate data by different criteria to see the analysis of rental duration, film length, top actor and customers status etc.
@@ -21,11 +21,24 @@ FROM information_schema.tables
 WHERE table_type='BASE TABLE'
 AND table_schema='public';
 ```
-actor; store; address; category; city; country; customer; film_actor; film_category; inventory; language; rental; staff; payment; film
-
+- actor — contains actors data including first name and last name.
+- film — contains films data such as title, release year, length, rating, etc.
+- film_actor — contains the relationships between films and actors.
+- category — contains film’s categories data.
+- film_category — containing the relationships between films and categories.
+- store — contains the store data including manager staff and address.
+- inventory — stores inventory data.
+- rental — stores rental data.
+- payment — stores customer’s payments.
+- staff — stores staff data.
+- customer — stores customer’s data.
+- address — stores address data for staff and customers
+- city — stores the city names.
+- country — stores the country names.
+- language — stores the language names.
 
 ## Entity Relationship Diagram (ERD)
-ERD visualizes the relationships between all entities which link up customers identity with DVD rental details in a database.
+ERD visualizes the relationships between all entities which link up customers identity with DVD rental details and also see the overall structure in a database.
 
 <img src="https://github.com/Stella-Ho/Assessment_SQL_DVDRental/assets/141046828/e3d28a81-592f-43b7-9c77-7b240e0a0505" width="800">
 
