@@ -2,10 +2,10 @@
 
 
 ## Overview
-In this project, it used POSTGRESQL database and extracted 10 SQL queries and 10 result files ".CSV" for these queries for DVD Rental database. It's also listed out all the table and created ERD which showed in below section. The dataset included the DVD rental stores information 
+In this project, it used POSTGRESQL database and extracted 10 SQL queries and 10 result files ".CSV" for these queries for DVD Rental database. It's also listed out all the table and created ERD which showed in below section.
 
 ## Objective
-The objective of this research is to analyze DVD Rental data, based on the data analysis, we have more insight on the customers usage by category or amount as well as consolidate data by different criteria to see the analysis of rental duration, film length, top actor and customers status etc.
+The objective of this research is to analyze DVD Rental data. The dataset included the DVD rental stores information and listed the details in database section. Based on the data analysis, we have more insight on the customers usage by category or amount as well as consolidate data by different criteria to see the analysis of rental duration, film length, top actor and customers status etc.
 
 - Install POSTGRESQL-ver.15.3 and PGADMIN4-ver.7.3 and run DVD rental dataset file ".TAR"
 - Create 10 SQL queries for DVD rental database
