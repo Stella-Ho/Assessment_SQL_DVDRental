@@ -32,7 +32,7 @@ AND table_schema='public';
 - payment — stores customer’s payments.
 - staff — stores staff data.
 - customer — stores customer’s data.
-- address — stores address data for staff and customers
+- address — stores address data for staff and customers.
 - city — stores the city names.
 - country — stores the country names.
 - language — stores the language names.
