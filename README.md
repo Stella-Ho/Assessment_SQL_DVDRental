@@ -38,7 +38,7 @@ AND table_schema='public';
 - language — stores the language names.
 
 ## Entity Relationship Diagram (ERD)
-ERD visualizes the relationships between all entities which link up customers identity with DVD rental details and also see the overall structure in a database.
+ERD visualizes the relationships between all entities which link up customers identity with DVD rental details and also see the overall structure in the database.
 
 <img src="https://github.com/Stella-Ho/Assessment_SQL_DVDRental/assets/141046828/e3d28a81-592f-43b7-9c77-7b240e0a0505" width="800">
 
