@@ -1,5 +1,5 @@
 # DVD Rental SQL Analysis
-The below 10 queries generated data for DVD rental analysis. It also attached the csv result of each of the query in the sepeate file. Click [Here](
+The below 10 queries generated data for DVD rental analysis. It also attached the csv result of each of the query in the sepeate file. Click [Here](https://github.com/Stella-Ho/Assessment_SQL_DVDRental.git)
 
 **1.	SELECT and WHERE and LIKE**
 ```
